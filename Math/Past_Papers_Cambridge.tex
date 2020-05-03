@@ -1,0 +1,87 @@
+
+\providecommand{\cmdPaperYearCIE}{}
+\renewcommand{\cmdPaperYearCIE}[3]
+{
+    \section{Year 20#2}
+ 
+	\foreach \x in {#31,#32,#33}
+	{
+	       \cmdPaperCIE{#1}{w#2}{\x}
+	       
+  	}
+
+	\foreach \x in {#31,#32,#33}
+	{
+	       \cmdPaperCIE{#1}{s#2}{\x}
+	    
+  	}
+
+	\foreach \x in {#22}
+	{
+	       \cmdPaperCIE{#1}{m#2}{\x}
+	       
+  	}
+
+}
+
+\cmdPaperYearCIE{\varCIECode}{19}{\varCIEVar} % \varCIECode: 9709, 0580 
+\cmdPaperYearCIE{\varCIECode}{18}{\varCIEVar} 
+\cmdPaperYearCIE{\varCIECode}{17}{\varCIEVar} 
+\cmdPaperYearCIE{\varCIECode}{16}{\varCIEVar} %--- Year 2016
+
+
+\renewcommand{\cmdPaperYearCIE}[3]
+{
+    \section{Year 20#2}
+ 
+	\foreach \x in {#31,#32,#33}
+	{
+	       \cmdPaperCIE{#1}{w#2}{\x}
+	       
+  	}
+
+	\foreach \x in {#31,#32,#33}
+	{
+	       \cmdPaperCIE{#1}{s#2}{\x}
+	 
+  	}
+}
+
+\cmdPaperYearCIE{\varCIECode}{15}{\varCIEVar} %--- Year 2015
+\cmdPaperYearCIE{\varCIECode}{14}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{13}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{12}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{11}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{10}{\varCIEVar}
+
+
+\section{Year 2009}
+\foreach \x in {\varCIEVar1,\varCIEVar2}
+{
+      \cmdPaperCIE{\varCIECode}{w09}{\x}
+      
+}
+
+\foreach \x in {\varCIEVar}
+{
+      \cmdPaperCIE{\varCIECode}{s09}{\x}
+      
+}
+
+
+\renewcommand{\cmdPaperYearCIE}[3]
+{
+    \section{Year 20#2} 
+    \cmdPaperCIE{#1}{w#2}{#3}
+    \cmdPaperCIE{#1}{s#2}{#3}
+    
+}
+
+\cmdPaperYearCIE{\varCIECode}{08}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{07}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{06}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{05}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{04}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{03}{\varCIEVar}
+\cmdPaperYearCIE{\varCIECode}{02}{\varCIEVar}
+
